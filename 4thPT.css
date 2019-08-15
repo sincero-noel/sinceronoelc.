@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: black;
+	text-shadow: 1px -1px purple, -2px 1px pink;
+	font-family: "Castellar";
+	text-align: center;
+	font-size: 20px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-image: url(giphy.gif);
+}
+/*add transparent background image: skadoosh blah blah,*/
+header{
+	color: black;
+	height: 300px;
+	padding: 30px 30px 0px 30px;
+	text-align: center;
+	background-image: url(giphy1.gif);	
+	background-attachment: fixed;
+	background-size: 100%	;
+	background-repeat: no-repeat;
+	background-blend-mode: luminosity;
+}
+header .title{
+	font-family: "Castellar", sans-serif;
+	font-size: 100px;
+	padding: 100px 0px 20px 0px;
+	text-decoration-line: underline;
+	border-style: hidden solid hidden solid;
+	border-width: 0px 20px 0px 20px;
+	text-shadow: 3px 0px purple, -5px 0px pink;
+	margin: 0;
+	background-color: rgb(0,0,0,0.7);
+}
+.title:hover{
+	text-shadow: -8px 0px purple, 8px -3px pink;
+	letter-spacing: 10px;
+	transition-duration: 0.3s;
+	text-decoration-line: underline;
+	box-shadow: -8px 1px purple, 8px -3px pink;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-width: 1px 5px 1px 5px;
+}
+.title3:hover{
+	transition-duration: 0.7s;
+	text-shadow: -5px 2px purple, 5px -2px pink;
+	letter-spacing: 20px;
+	box-shadow: 2px 2px purple, -2px 2px pink;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: rgba(0,0,0,0.1);
+}
+header .title2{
+	text-decoration-line: underline overline;
+	text-shadow: 1px -1px purple, -2px 1px pink;
+	letter-spacing: 15px;
+	background-color: rgba(0,0,0,0.1);
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.title2:hover{
+	transition-duration: 0.7s;
+	text-shadow: -5px 2px purple, 5px -2px pink;
+	letter-spacing: 20px;
+	box-shadow: 2px 2px purple, -2px 2px pink;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: rgba(0,0,0,0.1);
+}
+.instruction{
+	color: black;
+	text-align: center;
+}
+.title3{
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px -1px purple, -2px 1px pink;
+	background-blend-mode: luminosity;
+	color: black
+	text-shadow: 
+}
+.zeform{
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 30px;
+	text-align: center;
+	font-size: 20px;
+	background-color: rgba(106, 90, 205, 0.6);
+}
+.footer{
+	height: -250px;
+	padding-top: 200px;
+	text-align: center;
+}

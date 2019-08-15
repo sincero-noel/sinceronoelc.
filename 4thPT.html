@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noel's Form Webpage</title>
+	<link rel="stylesheet" type="text/css" href="4thPT.css">
+	<script type="text/javascript" src="jQuery_v3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$()
+			$(".submit").click(function(){
+				alert("I've read and agreed to the Terms and Conditions. Click 'OK' or press Enter to continue");
+			});
+			$(".byeG").click(function(){
+				alert("You are already finished.");
+			});
+		});
+</script>
+</head>
+<body id="zebody">
+	<header>
+		<h1 class="title1">Noel's Webpage</h1>
+		<h2 class="title2">a form webpage by G-Sauce</h2>
+	</header>
+	<div class="instructions">
+		<h4>Please answer the form below</h4>
+	</div>
+	<h3 class="title3"> Registration Forms</h3>
+	<div class="zeform">
+		<form method="GET" target="_blank">
+			First Name:<br> <input type="text" name="first_name"></br>
+			Last Name:<br> <input type="text" 	name="last_name"></br>
+		Gender: </br>
+		<input type="radio" name="gend">Male<br>	
+		<input type="radio" name="gend">Female<br>
+		<input type="radio" name="gend">Others<input type="text" name="others_input"></br>
+		age:<br> <input type="" name="age"><br>
+		Hobbies:<br><select name="hobbies" value="none">
+			<option value="none">None</option>
+			<option value="playing">Playing</option>
+			<option value="sleeping">Sleeping</option>
+			<option value="eating">Eating</option>
+			<option valu="studying">Studying</option>
+			<option value="dancing">Dancing</option>
+			<option value="crying">Crying</option>
+			<option value="depression">Depression</option>	
+		<input type="button" class="btn" name="zebutton" value="Submit">
+	</div>
+	<div class="footer">
+	 <p>this was assignment created by noel at 7:01pm on 8.13.19</p>
+	</div>
+</body>	
+</html>
